@@ -46,7 +46,7 @@ def list_pdb_files(folder):
 def run_prepare_recpetor4 (receptor_filename, pdbqt_out):
 	""" Function doc """
 	cmd = os.path.join(AUTODOCKTOOLS, 'prepare_receptor4.py')	
-	os.system(cmd + ' -r ' + receptor_filename + ' -o ' + pdbqt_out) #("parmchk -i " + AMBERTOOLS_outputs+"/"+new_ligand_name+".mol2 " + " -f mol2 -o "+AMBERTOOLS_outputs+"/"+new_ligand_name+".frcmod")
+	os.system(cmd + ' -r ' + receptor_filename + ' -o ' + pdbqt_out + ' -A checkhydrogens') #("parmchk -i " + AMBERTOOLS_outputs+"/"+new_ligand_name+".mol2 " + " -f mol2 -o "+AMBERTOOLS_outputs+"/"+new_ligand_name+".frcmod")
 
 
 
