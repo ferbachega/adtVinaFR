@@ -41,9 +41,9 @@ parameters = {
 		
 		 }
 
-receptor_folder   =  '/home/fernando/programs/adtVinaFR/flexible_receptor_PDB'
-ligands_folder    =  '/home/fernando/programs/adtVinaFR/ligands_PDB'
-output_folder     =  '/home/fernando/programs/adtVinaFR/OUTPUTS'
+receptor_folder   =  'examples/flexible_receptor_PDBQT'
+ligands_folder    =  'examples/ligands_PDBQT'
+output_folder     =  'examples/OUTPUTS'
 
 
 run_vina_FR ( receptor_folder   = receptor_folder,    # PDBQT folder
