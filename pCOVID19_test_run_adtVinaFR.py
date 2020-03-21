@@ -1,4 +1,4 @@
-from adtFRcore import *
+from adtVinaRFCore.adtFRcore import *
 
 
 #center_x  = 53.29
@@ -41,9 +41,9 @@ parameters = {
 		
 		 }
 
-receptor_folder   =  'examples/flexible_receptor_PDBQT'
-ligands_folder    =  'examples/ligands_PDBQT'
-output_folder     =  'examples/OUTPUTS'
+receptor_folder   =  'examples/pCOVID19/flexible_receptor_PDBQT'
+ligands_folder    =  'examples/pCOVID19/ligands_PDBQT'
+output_folder     =  'examples/pCOVID19/OUTPUTS'
 
 
 run_vina_FR ( receptor_folder   = receptor_folder,    # PDBQT folder
